@@ -13,9 +13,9 @@ day.counts <- day.data$Total
 names(day.counts) <- day.names
 pareto.chart(day.counts)
 
-# pareto chart by Reason
-reason.data <- Reason
-reason.names <- reason.data$Reason
+# pareto chart by initials
+initials.data <- initials
+initials.names <- initials.data$Reason
 reason.counts <- reason.data$Total
 names(reason.counts) <- reason.names
 pareto.chart(reason.counts)

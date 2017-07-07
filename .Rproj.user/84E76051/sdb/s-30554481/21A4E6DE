@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "library(qcc)\n# pareto chart by Reason\nreason.data <- reason\nreason.names <- reason.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)\n\n# pareto chart by day\nday.data <- day\nday.names <- day.data$Reason\nday.counts <- day.data$Total\nnames(day.counts) <- day.names\npareto.chart(day.counts)\n\n# pareto chart by Reason\nreason.data <- Reason\nreason.names <- reason.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)\n\n# pareto chart by Reason\nreason.data <- Reason\nreason.names <- reason.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)",
+    "contents" : "library(qcc)\n# pareto chart by Reason\nreason.data <- reason\nreason.names <- reason.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)\n\n# pareto chart by day\nday.data <- day\nday.names <- day.data$Reason\nday.counts <- day.data$Total\nnames(day.counts) <- day.names\npareto.chart(day.counts)\n\n# pareto chart by initials\ninitials.data <- initials\ninitials.names <- initials.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)\n\n# pareto chart by Reason\nreason.data <- Reason\nreason.names <- reason.data$Reason\nreason.counts <- reason.data$Total\nnames(reason.counts) <- reason.names\npareto.chart(reason.counts)",
     "created" : 1499416801774.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "345050854",
+    "hash" : "1514229718",
     "id" : "21A4E6DE",
-    "lastKnownWriteTime" : 1499426671,
-    "last_content_update" : 1499426671628,
+    "lastKnownWriteTime" : 1499426961,
+    "last_content_update" : 1499426961265,
     "path" : "~/Desktop/Rejected/pareto.R",
     "project_path" : "pareto.R",
     "properties" : {
