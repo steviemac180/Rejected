@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(tidyverse)\nlibrary(dplyr)\nlibrary(stringr)\nall.data <- alldata\nall.data\nsummary(all.data)\nall.data <- select(all.data, 1:12)\nhead(all.data)\nsummary(all.data)\n\n\n\nlevels(all.data$Month)\nall.data$Month <- gsub(\"april\", \"April\", all.data$Month)\nall.data$Month <- gsub(\"july\", \"July\", all.data$Month)\nall.data$Month <- gsub(\"june\", \"June\", all.data$Month)\nall.data$Month <- gsub(\"march\", \"March\", all.data$Month)\nall.data$Month <- gsub(\"may\", \"May\", all.data$Month)\nall.data$Month <- gsub(\"MAy\", \"May\", all.data$Month)\nall.data$Month <- gsub(\"MAY\", \"May\", all.data$Month)\nall.data$Month <- gsub(\"october\", \"October\", all.data$Month)\nall.data$Month <- gsub(\"september\", \"September\", all.data$Month)\n\n\nstr(all.data)\nglimpse(all.data)\nlevels(all.data$Location)\n\nall.data$Source <- gsub(\"TPP-not CUH\", \"TPP non-CUH\", all.data$Source)\n\n\nall.data$Day <- as.factor(all.data$Day)\nall.data$Year <- as.factor(all.data$Year)\nall.data$Assay <- as.factor(all.data$Assay)\nall.data$Reason <- as.factor(all.data$Reason)\nall.data$Date <- as.factor(all.data$Date)\nall.data$Month <- as.factor(all.data$Month)\nall.data$Source <- as.factor(all.data$Source)\nall.data$Location <- as.factor(all.data$Location)\n\nall.data$Location <- gsub(\"Rosie Rosie Sara Ward\", \"Rosie Sara Ward\", all.data$Location)\nall.data$Location <- as.factor(all.data$Location)\nlevels(all.data$Location)\n\n\n\n",
+    "created" : 1499435187928.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "505528331",
+    "id" : "89569A8F",
+    "lastKnownWriteTime" : 1499444938,
+    "last_content_update" : 1499444938257,
+    "path" : "~/Desktop/Rejected/analysis.R",
+    "project_path" : "analysis.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

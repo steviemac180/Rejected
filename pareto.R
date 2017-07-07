@@ -33,3 +33,15 @@ source.names <- source.data$Source
 source.counts <- source.data$Total
 names(source.counts) <- source.names
 pareto.chart(source.counts)
+
+# pareto chart by assay
+assay.data <- assay
+assay.names <- assay.data$Assay
+assay.counts <- assay.data$Total
+names(assay.counts) <- assay.names
+pareto.chart(assay.counts)
+
+
+
+
+
