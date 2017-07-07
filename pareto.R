@@ -8,28 +8,28 @@ pareto.chart(reason.counts)
 
 # pareto chart by day
 day.data <- day
-day.names <- day.data$Reason
+day.names <- day.data$Day
 day.counts <- day.data$Total
 names(day.counts) <- day.names
 pareto.chart(day.counts)
 
 # pareto chart by initials
 initials.data <- initials
-initials.names <- initials.data$Reason
-initials.counts <- intials.data$Total
-names(intials.counts) <- initials.names
-pareto.chart(intials.counts)
+initials.names <- initials.data$Initials
+initials.counts <- initials.data$Total
+names(initials.counts) <- initials.names
+pareto.chart(initials.counts)
 
 # pareto chart by location
 location.data <- location
-location.names <- location.data$location
+location.names <- location.data$Location
 location.counts <- location.data$Total
 names(location.counts) <- location.names
 pareto.chart(location.counts)
 
 # pareto chart by source
 source.data <- source
-source.names <- source.data$Reason
+source.names <- source.data$Source
 source.counts <- source.data$Total
 names(source.counts) <- source.names
 pareto.chart(source.counts)
