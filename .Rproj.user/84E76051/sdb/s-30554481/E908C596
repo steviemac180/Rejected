@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1499419267905.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E908C596",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1499419267905,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1B93109B",
+        "caption" : "SampleRejection",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=SampleRejection&cache_key=1B93109B",
+        "displayedObservations" : 16,
+        "environment" : "",
+        "object" : "SampleRejection",
+        "preview" : 0,
+        "totalObservations" : 16,
+        "variables" : 2
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
